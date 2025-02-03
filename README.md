@@ -2,13 +2,16 @@
 
 This is a CHIP-8 Emulator written in Java, developed using the [Cowgod Technical Reference](https://github.com/trapexit/chip-8_documentation/blob/master/Misc/Cowgod's%20CHIP-8%20Technical%20Reference.pdf) for the CHIP-8.
 
+
 About the CHIP-8 [from Wikipedia](https://en.wikipedia.org/wiki/CHIP-8):
 
 >CHIP-8 is an interpreted programming language, developed by Joseph Weisbecker on his 1802 microprocessor. It was initially used on the COSMAC VIP and Telmac 1800, which were 8-bit microcomputers made in the mid-1970s.
 >CHIP-8 was designed to be easy to program for, as well as using less memory than other programming languages like BASIC.
 >Interpreters have been made for many devices, such as home computers, microcomputers, graphing calculators, mobile phones, and video game consoles.
 
-Allows loading and running supported ROM files, and emulates the Chip8 architecture including:
+It's much like Java: it's a virtual machine, and this Java program emulates it.
+
+Allows loading and running supported ROM files, and emulates the CHIP-8 architecture including:
 
    - 16 8-bit registers
    - 64x32 pixel display
