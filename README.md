@@ -31,7 +31,7 @@ git clone https://github.com/milhud/chip8-interpreter-java.git
 
 Then, download some CHIP-8 games [from here](https://www.zophar.net/pdroms/chip8/chip-8-games-pack.html) and place them into the project directory (only download games you own, etc., etc.).
 
-Compile with (already compiled for your convenience):
+Compile with (Note: will also create a file for the ActionListener class):
 
 ```
 javac Chip8Emulator.java
